@@ -5,7 +5,7 @@ $(document).ready(function() {
         var insert = "<div class='entete-mmrs'><img src="+window.location.origin+"/wp-content/plugins/mmrs/img_logo/mmrs.png class='logo-mmrs logo'>";
             insert += "<h1 class='texte_slide'>Ministère des Mines et des Ressources Stratégiques</h1>";
             insert += "<img src="+window.location.origin+"/wp-content/plugins/mmrs/img_logo/republic.png class='logo-republic logo'></div>";
-            insert +="<nav class='menu-mmrs-nav'><p>test</p></nav>";
+            insert +="<nav class='menu-mmrs-nav'></nav>";
         $(insert).insertBefore("#id-menu-mmrs");
         $("#id-menu-mmrs").prependTo(".menu-mmrs-nav");
 
@@ -15,10 +15,10 @@ var slideshow = "<div id='jssor_1' style='position:relative;margin:0 auto;top:0p
         slideshow += "</div>";
         slideshow += "<div data-u='slides' style='cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;'>";
             slideshow += "<div data-fillmode='0' data-idle='2000'>";
-                slideshow += "<img data-u='image' src="+window.location.origin+"/wp-content/plugins/mmrs/slide_enjana/img/slide1.jpg/>";
+                slideshow += "<img data-u='image' src="+window.location.origin+"/wp-content/plugins/mmrs/slide_enjana/img/slide1.jpg />";
             slideshow += "</div>";
             slideshow += "<div>";
-                slideshow += "<img data-u='image' src="+window.location.origin+"/wp-content/plugins/mmrs/slide_enjana/img/slide2.jpg/>";
+                slideshow += "<img data-u='image' src="+window.location.origin+"/wp-content/plugins/mmrs/slide_enjana/img/slide2.jpg />";
             slideshow += "</div>";
             slideshow += "<div>";
                 slideshow += "<img data-u='image' src="+window.location.origin+"/wp-content/plugins/mmrs/slide_enjana/img/slide3.png />";
