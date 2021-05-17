@@ -49,9 +49,12 @@ function header_enjana(){
 add_action('wp_head','header_enjana');
 function footer_enjana(){
     $texte = "<hr><div class='footer'>";
-    $texte .="<img class='logo_mmrs logo' src=".plugin_dir_url(__FILE__)."img_logo/mmrs.jpeg>";
-    $texte .="<div class='text-footer'><p class ='email'><a href='mailto:contact@mmrs.gov.mg'>contact@mmrs.gov.mg</a></p>";
-    $texte .="</div>";
+    $texte .=" <a href='mailto:contact@mmrs.gov.mg'>
+                    <img class='logo_sociaux' src=".plugin_dir_url(__FILE__)."img_logo/gmail.png>
+                    </a>";
+    $texte .="<a href='https://www.facebook.com/mmrs.madagascar/'>
+                <img class='logo_sociaux' src=".plugin_dir_url(__FILE__)."img_logo/facebook.png>
+              </a>";
     $texte .="</div>";
     $texte .="<p class='copy'> &copy; Copyrigth 20".date("y")."</p>";
     echo $texte;

@@ -1,7 +1,6 @@
 .mon_header {
-  background-color: #00000014;
+  background-color: #555758;
   background-size: cover;
-  padding: 6px 0px 20px 0px;
 }
 h1.titre {
   color: #ffba30;
@@ -13,8 +12,8 @@ h1.titre {
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #ffffff;
+    justify-content: center;
+    background-color: #555758;
 }
 .logo {
     width: auto;
@@ -23,9 +22,11 @@ h1.titre {
 #nav-menu-mmrs {
   width: 99.2vw;
   height: 17vh;
-  background-color: #fff;
+  background-color: #555758;
   box-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
   top: 0px;
+  position: sticky;
+  z-index: 1000;
 }
   
   #nav-menu-mmrs > ul > li {
@@ -70,7 +71,7 @@ li:hover {
 
 }
 nav.menu-mmrs-nav {
-  background-color: #f3f3f3;
+  background-color: #bbbaba;
   width: 99vw;
   padding-right: 40px;
 }
@@ -85,11 +86,11 @@ li {
 /*slide show image*/
 .texte_slide{
   color:#FFFB0A;
-  font-size:32px;
+  font-size:3vw;
   line-height:1.2;
   text-align:center;
   font-family: monospace;
-  text-shadow: -1px 3px black;
+  text-shadow: -1px 1px black;
 }
  /*jssor slider loading skin double-tail-spin css*/
  .jssorl-004-double-tail-spin img {
@@ -131,4 +132,17 @@ p.copy {
   justify-content: center;
   font-weight: bold;
   margin-bottom: 0px!important;
+}
+img.logo_sociaux {
+  width: 70px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 1px white;
+}
+.footer > a {
+  padding: 20px;
+}
+.tg-container {
+  background-color: #f7f7f794;
+  padding: 5px;
+  color: white;
 }
