@@ -20,8 +20,7 @@ h1.titre {
     height: 10vh;
 }
 #nav-menu-mmrs {
-  width: 99.2vw;
-  height: 17vh;
+  width: 100vw;
   background-color: #555758;
   box-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
   top: 0px;
@@ -72,8 +71,9 @@ li:hover {
 }
 nav.menu-mmrs-nav {
   background-color: #bbbaba;
-  width: 99vw;
+  width: 100vw;
   padding-right: 40px;
+	height:6vw;
 }
 li {
   list-style: none;
