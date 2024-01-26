@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Head/footer
-Plugin URI: https://github.com/david-le-fou
+Plugin URI: https://github.com/davidhub001/Plugin-mmrs
 Description: header & footer mmrs
 Author: David le fou
 Version: 1.0.0
